@@ -1,0 +1,61 @@
+
+.FavorisContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: top;
+    background-color: rgb(200, 200, 200);
+    border-radius: 6px;
+    margin: 8px;
+    margin-bottom : 0px;
+    scroll-snap-align: start;
+}
+
+
+.FavorisContainer .cmdIcon {
+    display: none;
+}
+
+.FavorisContainer:hover .cmdIcon {
+    display: block;
+}
+
+.FavorisLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 8px;
+    align-items: center;
+}
+
+.FavorisName {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.FavorisPhone {
+    color: white;
+}
+
+.FavorisEmail {
+    color: white;
+}
+
+.FavorisCommandPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.FavorisdeleteForm {
+    margin: 20px;
+}
+.big-favicon {
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
+}
